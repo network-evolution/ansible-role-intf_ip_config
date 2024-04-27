@@ -13,6 +13,6 @@
   notify:
     - ip change post action
 
-- name: Print Output
+- name: Print Output data
   ansible.builtin.debug:
     msg: "{{ l3_config_output }}" 
